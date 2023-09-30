@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+nav {
+    height: 9vh;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+
+.logo_box {
+    height: 100%;
+    width: 65%;
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    font-family: 'Roboto';
+    font-weight: 200;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.07em;
+}
