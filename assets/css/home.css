@@ -133,7 +133,7 @@ main {
 }
 
 /*OUR WORK SECTION STYLES*/
-#ow_sec div:first-child {
+.ow_text_box_color {
     background-color: #e8e8e8;
     color: black;
 }
@@ -155,9 +155,19 @@ main {
     align-items: center;
 }
 
-.ow_imgbox {
+.ow_imgsbox {
     display: flex;
     height: 30%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ow_single_imgbox {
+    background-color: black;
+    width: 25%;
+    height: 70%;
+    border-radius: 5px;
 }
 
 /*BASIC TEXT-BOX STYLES*/
