@@ -160,17 +160,26 @@ main {
     height: 30%;
     width: 100%;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .ow_single_imgbox {
     width: 25%;
     height: 70%;
-    border-radius: 8px;
+    border-radius: 4px;
+    background-size: cover;
 }
 
 .single_img1 {
-    background-image: url("../img/home/our_work_sec/our_work_img4.png");
+    background-image: url("../img/home/our_work_sec/our_work_img4.jpeg");
+}
+
+.single_img2 {
+    background-image: url("../img/home/our_work_sec/our_work_img5.jpeg");
+}
+
+.single_img3 {
+    background-image: url("../img/home/our_work_sec/our_work_img6.jpeg");
 }
 
 /*BASIC TEXT-BOX STYLES*/
