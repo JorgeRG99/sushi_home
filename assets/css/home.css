@@ -164,10 +164,13 @@ main {
 }
 
 .ow_single_imgbox {
-    background-color: black;
     width: 25%;
     height: 70%;
-    border-radius: 5px;
+    border-radius: 8px;
+}
+
+.single_img1 {
+    background-image: url("../img/home/our_work_sec/our_work_img4.png");
 }
 
 /*BASIC TEXT-BOX STYLES*/
