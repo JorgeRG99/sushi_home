@@ -76,7 +76,7 @@ main {
     border: none;
     cursor: pointer;
     width: 11%;
-    background-color: #a815216e;
+    background-color: #a8152178;
 }
 
 .journey_btn a {
@@ -113,6 +113,7 @@ main {
 .home_text_section {
     display: flex;
 }
+
 .img_display {
     display: block;
 }
@@ -199,9 +200,89 @@ main {
 .title {
     letter-spacing: 0.3em;
     font-size: 1.8em;
+    text-align: center;
 }
 
 .paragraphs {
     font-size: 1.02em;
     line-height: 1.5em;
+}
+
+/*CAROUSEL SECTION STYLES*/
+#dishes_carousel {
+    height: 85vh;
+    width: 100vw;
+    background-color: #121212;
+    display: flex;
+}
+
+.carusel_textbox {
+    width:55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3em 6em;
+    font-family: 'Roboto';
+    color: white;
+    text-align: justify;
+}
+
+@keyframes display {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    20% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    30% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+}
+
+.pic-ctn {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic-ctn>img {
+    position: absolute;
+    left: calc(56% - 30%);
+    opacity: 0;
+    animation: display 10s infinite;
+    border-radius: 5px;
+}
+
+img:nth-child(2) {
+    animation-delay: 2s;
+}
+
+img:nth-child(3) {
+    animation-delay: 4s;
+}
+
+img:nth-child(4) {
+    animation-delay: 6s;
+}
+
+img:nth-child(5) {
+    animation-delay: 8s;
 }
