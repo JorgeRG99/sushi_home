@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
+    <g clip-path="url(&quot;#SvgjsClipPath3916&quot;)" fill="none">
+        <rect width="1440" height="560" x="0" y="0" fill="rgba(18, 18, 18, 1)"></rect>
+        <circle r="21.585" cx="831.91" cy="84.69" fill="rgba(232, 232, 232, 1)"></circle>
+        <circle r="39.425" cx="677.75" cy="200.94" fill="rgba(232, 232, 232, 1)"></circle>
+        <circle r="24.195" cx="1201.46" cy="315.54" fill="rgba(232, 232, 232, 1)"></circle>
+        <circle r="25.315" cx="850.96" cy="440.01" fill="rgba(232, 232, 232, 1)"></circle>
+    </g>
+    <defs>
+        <clipPath id="SvgjsClipPath3916">
+            <rect width="1440" height="560" x="0" y="0"></rect>
+        </clipPath>
+    </defs>
+</svg>

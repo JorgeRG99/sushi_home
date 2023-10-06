@@ -1,0 +1,27 @@
+/*MAIN STYLES*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    width: 100vw;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto';
+    padding-top: 15vh;
+}
+
+.menu {
+    
+}
+
+.card {
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
