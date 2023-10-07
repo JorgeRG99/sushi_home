@@ -1,7 +1,7 @@
 colorChange = () => {
     let element = document.querySelector('nav')
 
-    let elementVisible = 450
+    let elementVisible = 150
     let scrollY = window.scrollY
 
     if (scrollY >= elementVisible) {

@@ -1,17 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
-
-/*MAIN STYLES*/
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
 main {
-    display: flex;
     flex-direction: column;
 }
 
@@ -191,21 +178,6 @@ main {
     align-items: center;
     font-family: 'Roboto';
     text-align: justify;
-}
-
-.text_box_weight {
-    font-weight: 300;
-}
-
-.title {
-    letter-spacing: 0.3em;
-    font-size: 1.8em;
-    text-align: center;
-}
-
-.paragraphs {
-    font-size: 1.02em;
-    line-height: 1.5em;
 }
 
 /*CAROUSEL SECTION STYLES*/
