@@ -37,12 +37,11 @@ let createShoppingCard = (shopping_bag) => {
                 let dish_count_box = document.createElement("div")
                 card_content.classList.add("card_cunter")
                 let dish_count_text = document.createElement("p")
-                dish_count_text.textContent = `X${dish_count[item]}`
+                dish_count_text.textContent = `x${dish_count[item]}`
                 dish_count_box.appendChild(dish_count_text)
                 card.appendChild(dish_count_box)
 
                 total_price += local_s_dish["price"] * dish_count[item]
-                console.log(total_price)
 
                 shopping_bag.appendChild(card)
             }

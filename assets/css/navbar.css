@@ -45,6 +45,8 @@ nav.color_change {
     right: 0;
     display: none;
     color: white;
+    max-height: 60vh;
+    overflow: scroll;
 }  
 
 .navbar_menu > img {

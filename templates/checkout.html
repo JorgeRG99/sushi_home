@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/checkout.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="shortcut icon" href="../assets/img/navbar/favicon.ico" type="image/x-icon">
+    <title>SUSHI HOME</title>
+</head>
+
+<body>
+    <header w3-include-html="../../templates/navbar.html"></header>
+    <main>
+        <section id="bag"></section>
+        <form action="" method="POST">
+            <label for="name">Name:</label><input class="form_input" name="name" type="text">
+            <label for="phone">Phone Number:</label><input class="form_input" name="phone" type="number">
+            <label for="email">Email:</label><input class="form_input" name="email" type="number">
+            <label for="credit_card">Card Number:</label><input class="form_input" name="text" type="number">
+            <label for="exp_date">Expiration Date:</label><input class="form_input" name="exp_date" type="text">
+            <label for="cvc">CVC:</label><input class="form_input" name="cvc" type="number">
+            <button type="submit">Pay</button>
+        </form>
+    </main>
+    <footer w3-include-html="../../templates/footer.html"></footer>
+    <script src="../assets/js/html_snippets.js"></script>
+    <script src="../assets/js/navbar_scroll_animation.js"></script>
+    <script src="../assets/js/shopping_bag.js"></script>
+    <script src="../assets/js/checkout.js"></script>
+</body>
+
+</html>
