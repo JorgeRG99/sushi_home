@@ -1,0 +1,74 @@
+{
+    "1": {
+        "description": "Our Tuna Nigiri is a symphony of simplicity and sublime flavors.",
+        "img_url": "../assets/img/home/dishes/akami-nigiri.png",
+        "name": "Akami Nigiri",
+        "price": 7
+    },
+    "10": {
+        "description": "Our Salmon Hosomaki offers a delightful balance of textures and tastes.",
+        "img_url": "../assets/img/home/dishes/salmon-hoso.png",
+        "name": "Salmon Hoso",
+        "price": 8
+    },
+    "11": {
+        "description": "The Akami Hosomaki presents the essence of simplicity.",
+        "img_url": "../assets/img/home/dishes/akami-hoso.png",
+        "name": "Akami Hoso",
+        "price": 10
+    },
+    "12": {
+        "description": "Crispy and flavorful, our Gyozas are a delightful fusion of Japanese and Chinese culinary traditions.",
+        "img_url": "../assets/img/home/dishes/gyoza.png",
+        "name": "Gyoza",
+        "price": 13
+    },
+    "2": {
+        "description": "Indulge in the exquisite simplicity of our Salmon Nigiri.",
+        "img_url": "../assets/img/home/dishes/salmon-nigiri.png",
+        "name": "Salmon Nigiri",
+        "price": 5
+    },
+    "3": {
+        "description": "Our Unagi Nigiri invites you to savor the succulent allure of freshwater eel.",
+        "img_url": "../assets/img/home/dishes/unagi-nigiri.png",
+        "name": "Unagi Nigiri",
+        "price": 6.5
+    },
+    "4": {
+        "description": "A plump and succulent shrimp takes center stage, nestled atop a petite mound of vinegared rice.",
+        "img_url": "../assets/img/home/dishes/ebi-nigiri.png",
+        "name": "Ebi Nigiri",
+        "price": 6
+    },
+    "5": {
+        "description": "Dive into the ocean-fresh allure of our Salmon Sashimi.",
+        "img_url": "../assets/img/home/dishes/salmon-sashimi.png",
+        "name": "Salmon Sashimi",
+        "price": 8
+    },
+    "6": {
+        "description": "Our Tuna Sashimi offers a captivating celebration of the ocean's bounty.",
+        "img_url": "../assets/img/home/dishes/sashimi-mix.png",
+        "name": "Akami Sashimi",
+        "price": 12
+    },
+    "7": {
+        "description": "Embark on a sashimi adventure with our Sashimi Mix.",
+        "img_url": "../assets/img/home/dishes/akami-sashimi.png",
+        "name": "Sashimi Mix",
+        "price": 20
+    },
+    "8": {
+        "description": "Vibrant orange fish roe rests atop small beds of seasoned rice, wrapped in a ribbon of seaweed.",
+        "img_url": "../assets/img/home/dishes/tobiko.png",
+        "name": "Tobiko",
+        "price": 8
+    },
+    "9": {
+        "description": "These delectable bites feature glistening orange salmon roe nestled atop rice, enveloped in a seaweed cradle.",
+        "img_url": "../assets/img/home/dishes/ikura.png",
+        "name": "Ikura",
+        "price": 10
+    }
+}

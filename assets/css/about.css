@@ -1,0 +1,42 @@
+main {
+    flex-direction: column;
+    width: 100vw;
+    padding: 14vh 0;
+    align-items: center;
+    gap: 8vh;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.our_story {
+    height: 70vh;
+}
+.our_philosophy {
+    height: 90vh;
+}
+
+.img_box {
+    width: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_box > img{
+    border-radius: .4em;
+}
+
+.section_content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 55%;
+    text-align: justify;
+}
