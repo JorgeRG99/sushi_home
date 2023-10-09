@@ -7,13 +7,13 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10vh;
-    width: 42%;
+    width: 50%;
     justify-content: center;
     align-items: center;
 }
 
 .form_img_box {
-    width: 58%;
+    width: 50%;
 }
 
 .form_title {
