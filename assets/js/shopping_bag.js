@@ -120,10 +120,10 @@ function addCart(id) {
 let displayBag = () => {
     let shopping_bag = document.getElementById("shopping_bag")
 
-    if (shopping_bag.classList.contains('visible')) {
-        shopping_bag.classList.remove('visible')
+    if (shopping_bag.classList.contains('visible_bag')) {
+        shopping_bag.classList.remove('visible_bag')
     } else {
         setBag()
-        shopping_bag.classList.add('visible')
+        shopping_bag.classList.add('visible_bag')
     }
 }

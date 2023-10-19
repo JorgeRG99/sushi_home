@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+$main_font: 'Roboto';
+$primary_color : #121212;
+
+/*MAIN STYLES*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #121212;
+}
+
+main {
+    display: flex !important;
+    background-color: $primary_color;
+}
+
+.text_box_weight {
+    font-weight: 300;
+}
+
+.title {
+    letter-spacing: 0.2em;
+    font-size: 1.8em;
+    text-align: center;
+    font-family: $main_font;
+    font-weight: 100;
+}
+
+.paragraphs {
+    font-size: 1.02em;
+    line-height: 1.5em;
+    font-family: $main_font;
+    font-weight: 200;
+}

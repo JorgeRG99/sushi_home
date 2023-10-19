@@ -1,0 +1,33 @@
+@import 'main', 'navbar', 'footer';
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+
+$custom-colors: (
+    "corpred": #b71724
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+header {
+    display: flex;
+}
+
+footer {
+    display: flex !important;
+}
+
+main {
+    height: 100vh;
+    background-color: #121212;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form {
+    width: 35%;
+}

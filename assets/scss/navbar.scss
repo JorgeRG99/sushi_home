@@ -2,7 +2,7 @@
 
 nav {
     height: 9vh;
-    display: flex;
+    display: flex !important;
     position: fixed;
     width: 100%;
     z-index: 2;
@@ -19,7 +19,7 @@ nav {
 }
 
 .navbar_menu {
-    font-family: 'Roboto';
+    font-family: $main_font;
     font-weight: 200;
     display: flex;
     justify-content: space-around;
@@ -28,8 +28,13 @@ nav {
 }
 
 .navbar_menu a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.promotions_a:hover{
+    color: #e21c2c !important;
+    transition: 1s;
 }
 
 nav.color_change {
@@ -47,15 +52,54 @@ nav.color_change {
     color: white;
     max-height: 60vh;
     overflow: scroll;
-}  
+}
+
+.user_login_box {
+    position: absolute;
+    width: 15vw;
+    height: auto;
+    background-color: #151515;
+    top: 9vh;
+    right: 0;
+    display: none;
+    height: 20vh;
+    overflow: scroll;
+}
+
+.user_login_box > a {
+    background-color: #a81521ba;
+    width: 60%;
+    height: 25%;
+    border-radius: .3em;
+    padding: .5em .4em;
+    font-size: 1em;
+    text-align: center;
+    color: white !important;
+    font-weight: 200;
+    line-height: 1.25 !important;
+    text-decoration: none !important;
+}
+
+.user_login_box > a:hover {
+    background-color: #b71724;
+    transition: 1s;
+}
 
 .navbar_menu > img {
     cursor: pointer;
 }
-.visible{
+
+.visible_bag{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.visible_user{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 
