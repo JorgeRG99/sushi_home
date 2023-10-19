@@ -1,0 +1,38 @@
+{
+    "1": {
+        "description": "The basics of Tekkadan Dinning",
+        "img_url": "../assets/img/promotions/tokyo.png",
+        "name": "Tokyo - 8 Pieces",
+        "price": 12
+    },
+    "2": {
+        "description": "The best of the sea with the most famous piece of sushi",
+        "img_url": "../assets/img/promotions/nigiri.png",
+        "name": "Nigiri - 10 Pieces",
+        "price": 30
+    },
+    "3": {
+        "description": "A mix between the uramaki and the orange gold of the sea",
+        "img_url": "../assets/img/promotions/zatta.png",
+        "name": "Zatta - 12 Pieces",
+        "price": 10
+    },
+    "4": {
+        "description": "Best of the king of the sushi, for maguro lovers",
+        "img_url": "../assets/img/promotions/maguro.png",
+        "name": "Maguro - 12 Pieces",
+        "price": 22
+    },
+    "5": {
+        "description": "The king of Norway in the best bites of Tekkadan",
+        "img_url": "../assets/img/promotions/sake.png",
+        "name": "Sake - 12 Pieces",
+        "price": 17
+    },
+    "6": {
+        "description": "Big variety of the chef specialities",
+        "img_url": "../assets/img/promotions/kobe.png",
+        "name": "Kobe - 14 Pieces",
+        "price": 6.5
+    }
+}

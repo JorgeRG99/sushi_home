@@ -1,6 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
 /*MAIN STYLES*/
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #121212;
+}
+
+main {
+  display: flex !important;
+  background-color: #121212;
+}
+
+.text_box_weight {
+  font-weight: 300;
+}
+
+.title {
+  letter-spacing: 0.2em;
+  font-size: 1.8em;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 100;
+}
+
+.paragraphs {
+  font-size: 1.02em;
+  line-height: 1.5em;
+  font-family: "Roboto";
+  font-weight: 200;
+}
+
+/*MAIN STYLES*/
 * {
   margin: 0 !important;
   box-sizing: border-box;
@@ -48,7 +85,7 @@ nav {
 .logo_box {
   height: 100%;
   width: 65%;
-  margin-left: 1em;
+  margin-left: 1em !important;
   display: flex;
   align-items: center;
 }
@@ -177,6 +214,41 @@ nav.color_change {
 
 #empty_text {
   padding: 1em 0.2em;
+}
+
+/*MAIN STYLES*/
+* {
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #121212;
+}
+
+main {
+  display: flex !important;
+  background-color: #121212;
+}
+
+.text_box_weight {
+  font-weight: 300;
+}
+
+.title {
+  letter-spacing: 0.2em;
+  font-size: 1.8em;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 100;
+}
+
+.paragraphs {
+  font-size: 1.02em;
+  line-height: 1.5em;
+  font-family: "Roboto";
+  font-weight: 200;
 }
 
 footer {
