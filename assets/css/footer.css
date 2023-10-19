@@ -88,14 +88,31 @@ footer {
 }
 
 .social_media {
-  width: 45%;
+  width: 65%;
   height: 60%;
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
-  gap: 3%;
+  justify-content: space-evenly;
 }
 
 .social_media > a {
   height: 20%;
+}
+
+.creative_commons {
+  color: white;
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 0.9em;
+}
+
+.creative_commons > a {
+  text-decoration: none;
+  font-weight: 300;
+  color: white;
+}
+
+.creative_commons > a:hover {
+  transition: 1s;
+  color: #ff0015;
 }
