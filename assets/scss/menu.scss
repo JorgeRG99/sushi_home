@@ -40,7 +40,6 @@ main {
 
 .arrow {
     cursor: pointer;
-    transition: 1s;
 }
 
 .dish_description {
@@ -53,7 +52,6 @@ main {
     font-weight: 300;
     letter-spacing: 0.1em;
     opacity: 0;
-    transition: 1s;
     transform: translateY(-40px);
 }
 
